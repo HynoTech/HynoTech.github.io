@@ -1,0 +1,606 @@
+{
+  "header": {
+    "nombres": "Antonio",
+    "apellidos": "Salas",
+    "url_foto": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/foto.jpg",
+    "especialidad": "Software Developer",
+    "img_especialidad": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/developer.png",
+    "background": null
+  },
+  "body": {
+    "secciones": [
+      {
+        "titulo": "Objetivos",
+        "orden": 0,
+        "img": null,
+        "tipo": "texto",
+        "value": "<p>Poder encontrar una oportunidad laboral en la que pueda demostrar mis habilidades, destrezas, personalidad y mi capacidad de trabajar en equipo para lograr un objetivo común.</p> <p>Mi meta no es solo de conseguir un trabajo, sino también la que alcanzar una posición que me permita crecer laboralmente.</p>"
+      },
+      {
+        "titulo": "Información Personal",
+        "orden": 1.1,
+        "seccion": "1/2",
+        "img": null,
+        "tipo": "diccionario",
+        "conf_campos": [
+          {"campo": "nombre_completo", "label": "Nombre"},
+          {"campo": "direccion", "label": "Dirección"},
+          {"campo": "_concat", "label": "Ciudad", "content": ["ciudad","pais"], "extra": " - "},
+          {"campo": "_implode", "label": "Teléfono", "content": ["telefono"], "extra": "<br>" },
+          {"campo": "_implode", "label": "Email", "content": ["email"], "extra": "<br>" },
+          {"campo": "dni", "label": "DNI"},
+          {"campo": "brevete", "label": "Licencia de Conducir"},
+          {"campo": "_implode", "label": "Web", "content": ["web"], "extra": "<br>" }
+        ],
+        "ordenPor": "anio@numero@desc",
+        "value": [
+          {
+            "nombre_completo": "Salas Huanca, Antonio",
+            "direccion": "Nuevo Ilo Mz 1 Lt 12",
+            "ciudad": "Ilo",
+            "region": "Moquegua",
+            "pais": "Perú",
+            "telefono": [
+              "+51 953677714"
+            ],
+            "email": [
+              "antony.salas@gmail.com"
+            ],
+            "dni": "43177406",
+            "brevete": "A1 - J431774068",
+            "web": [
+              "www.hynotech.com"
+            ]
+          }
+        ]
+      },
+      {
+        "titulo": "Empleo Deseado",
+        "orden": 1.2,
+        "seccion": "2/2",
+        "img": null,
+        "tipo": "lista",
+        "value": [
+          "Desarrollador de aplicaciones",
+          "Desarrollo de aplicaciones WEB",
+          "Administrador de Base de Datos",
+          "Soporte Informático onsite / online",
+          "Encargado de laboratorio de Informática",
+          "Asistente de gestión de DATA,",
+          "Operador Informatico"
+        ]
+      },
+      {
+        "titulo": "Conocimientos",
+        "orden": 2,
+        "img": null,
+        "tipo": "lista",
+        "value": [
+          "Desarrollo Web (JQuery, CSS3, HTML5, Bootstrap)",
+          "Programación en PHP.",
+          "Conocimientos de MySQL, SQLServer, PostgreSQL.",
+          "Uso de framework LARAVEL",
+          "Uso de framework CodeIgniter",
+          "CMS Wordpress (Desarrollo de Plugin)",
+          "Desarrollo de aplicaciones en Visual Studio .NET (C#, VB net, ASP.NET)",
+          "Diseño grafico Publicitario (Corel Draw, Illustrator, Photoshop).",
+          "Conocimientos Avanzados de Paquete OFFICE (2003 – 2016)",
+          "Conocimientos Avanzados de Sistemas Operativos Windows y Windows Server",
+          "Conocimientos Avanzados de MAC OSx",
+          "Conocimientos Intermedios de Linux (OpenSuse, Ubuntu)"
+        ],
+        "imagenes": {
+          "css_clase": "col-3",
+          "value": [
+            { "alt": "JQuery", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/jquery.png" },
+            { "alt": "CSS 3", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/css3.png" },
+            { "alt": "HTML 5", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/html5.png" },
+            { "alt": "Bootstrap", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/bootstrap.png" },
+            { "alt": "PHP", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/php.png" },
+            { "alt": "MySQL", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/mysql.png" },
+            { "alt": "SQL Server", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/sql_server.png" },
+            { "alt": "Postgre SQL", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/postgres.png" },
+            { "alt": "Laravel", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/laravel.png" },
+            { "alt": "Codeigniter", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/codeigniter.png" },
+            { "alt": "Wordpress", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/wordpress.png" },
+            { "alt": "Visual Studio", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/visual_studio.png" },
+            { "alt": "Corel Draw", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/corel_draw.png" },
+            { "alt": "Adobe Illustrator", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/illustrator.png" },
+            { "alt": "Adobe Photoshop", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/photoshop.png" },
+            { "alt": "Microsoft Office", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/office.png" },
+            { "alt": "Windows y Windows Server", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/windows.png" },
+            { "alt": "Mac OS", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/mac.png" },
+            { "alt": "Fedora Linux", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/fedora.png" },
+            { "alt": "Suse Linux", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/suse.png" },
+            { "alt": "Ubuntu Linux", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/ubuntu.png" },
+            { "alt": "Debian Linux", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/conocimientos/debian.png" }
+          ]
+        }
+      },
+      {
+        "titulo": "Experiencia Laboral",
+        "orden": 3,
+        "img": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/secciones/experiencia_laboral.png",
+        "conf_campos": [
+          {"campo": "empresa", "label": null},
+          {"campo": "cargo", "label": "Cargo"},
+          {"campo": "_concat", "label": "Fechas", "content": ["f_inicio","f_fin"], "extra": "-"}
+        ],
+        "ordenPor": "f_inicio@fecha@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "f_inicio": "02/01/2016",
+            "f_fin": "30/05/2016",
+            "cargo": "Desarrollo y mantenimiento de Sistemas Informaticos",
+            "empresa": "Proyectec EIRL",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/experiencia_laboral/2016-07-tiny.jpg"
+          },
+          {
+            "f_inicio": "02/01/2015",
+            "f_fin": "01/12/2016",
+            "cargo": "Desarrollo y mantenimiento de Sistemas Informaticos",
+            "empresa": "OK Computer EIRL",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/experiencia_laboral/2017-05-tiny.jpg"
+          },
+          {
+            "f_inicio": "01/06/2013",
+            "f_fin": "31/12/2014",
+            "cargo": "Desarrollo de Software",
+            "empresa": "OK Computer EIRL",
+            "img_doc": null
+          },
+          {
+            "f_inicio": "20/02/2010",
+            "f_fin": "20/02/2012",
+            "cargo": "Desarrollo web y Sistemas Informaticos",
+            "empresa": "OK Computer EIRL",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/experiencia_laboral/2012-02-tiny.jpg"
+          },
+          {
+            "f_inicio": "02/03/2009",
+            "f_fin": "31/05/2009",
+            "cargo": "Practicante de Logistica",
+            "empresa": "Southern Perú Cooper Corporation",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/experiencia_laboral/2009-05-tiny.jpg"
+          },
+          {
+            "f_inicio": "12/12/2006",
+            "f_fin": "06/07/2007",
+            "cargo": "Soporte Tecnico",
+            "empresa": "OK Computer EIRL",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/experiencia_laboral/2007-07-tiny.jpg"
+          }
+        ],
+        "imagenes": {
+          "css_clase": "col-sm-12",
+          "value": [
+            { "alt": "OK Computer EIRL", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/empresas/okcomputer.png" },
+            { "alt": "Proyectec EIRL", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/empresas/proyectec.png" },
+            { "alt": "Southern Perú Cooper Corporation", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/empresas/southern.png" }
+          ]
+        }
+      },
+      {
+        "titulo": "Logros",
+        "orden": 3,
+        "img": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/secciones/logros.png",
+        "conf_campos": [
+          {"campo": "none", "label": null},
+          {"campo": "institucion", "label": "Institución"},
+          {"campo": "anio", "label": "Año"}
+        ],
+        "ordenPor": "anio@numero@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "none": "Beca de pasantia Universidad de Buenos Aires - Argentina",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2018,
+            "fechas": "2018",
+            "img_doc": null
+          },
+          {
+            "none": "Beca de Intercambio REDISUR - Universidad Tecnologica de los Andes",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2017,
+            "fechas": "2017",
+            "img_doc": null
+          },
+          {
+            "none": "Quinto Superior",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2018,
+            "fechas": "2014 - 2018",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/logros/2018-10-tiny.jpg"
+          },
+          {
+            "none": "Primer Puesto en rendimiento academico - IX Ciclo",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2018,
+            "fechas": "Diciembre 2018",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/logros/2018-11-tiny.jpg"
+          },
+          {
+            "none": "Primer Puesto en rendimiento academico - V Ciclo",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2016,
+            "fechas": "Diciembre 2016",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/logros/2016-12-tiny.jpg"
+          },
+          {
+            "none": "Segundo Lugar - Concurso de Programacion",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2014,
+            "fechas": "Noviembre 2014",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/logros/2014-11-tiny.jpg"
+          },
+          {
+            "none": "Primer Puesto en rendimiento academico - I Ciclo",
+            "institucion": "Universidad Nacional de Moquegua",
+            "anio": 2014,
+            "fechas": "Agosto 2014",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/logros/2014-08-tiny.jpg"
+          }
+        ],
+        "imagenes": {
+          "css_clase": "col-6",
+          "value": [
+            { "alt": "Universidad Nacional de Moquegua", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/unam.png" },
+            { "alt": "Universidad de Buenos Aires", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/uba.png" },
+            { "alt": "Universidad Tecnologica de los Andes", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/utea.png" }
+          ]
+        }
+      },
+      {
+        "titulo": "Capacitaciones Adicionales",
+        "orden": 3,
+        "img": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/secciones/capacitaciones.png",
+        "conf_campos": [
+          {"campo": "certificacion", "label": "Certificación"},
+          {"campo": "capacitador", "label": "Capacitador"},
+          {"campo": "fechas", "label": "Fecha"}
+        ],
+        "ordenPor": "anio@numero@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "anio": 2015,
+            "fechas": "Noviembre 2015",
+            "certificacion": "Soy Profesor SMART",
+            "capacitador": "SMART Technologies",
+            "img_doc": null
+          },
+          {
+            "anio": 2014,
+            "fechas": "Junio 2014",
+            "certificacion": "Inglés Básico",
+            "capacitador": "Universidad Nacional de Moquegua",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/capacitaciones/2014-06-tiny.jpg"
+          },
+          {
+            "anio": 2014,
+            "fechas": "Marzo 2014",
+            "certificacion": "Auxiliar de Ventas y Atención al Cliente",
+            "capacitador": "Universidad Nacional de San Agustín",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/capacitaciones/2014-03-tiny.jpg"
+          },
+          {
+            "anio": 2002,
+            "fechas": "Julio 2002",
+            "certificacion": "Formación Básica – Mecánica de Mantenimiento",
+            "capacitador": "SENATI",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/capacitaciones/2002-07-tiny.jpg"
+          }
+        ],
+        "imagenes": {
+          "css_clase": "col-6",
+          "value": [
+            { "alt": "Universidad Nacional de Moquegua", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/unam.png" },
+            { "alt": "Universidad Nacional de San Agustin", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/unsa.png" },
+            { "alt": "Smart Technologies", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/empresas/smart_technologies.png" }
+          ]
+        }
+      },
+      {
+        "titulo": "Ponencias",
+        "orden": 4,
+        "img": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/secciones/seminario.png",
+        "conf_campos": [
+          {"campo": "evento", "label": null},
+          {"campo": "organizador", "label": "Lugar"},
+          {"campo": "_concat", "label": null, "content": ["ciudad","pais"], "extra": " - "},
+          {"campo": "_concat", "label": "Fechas", "content": ["mes","anio"], "extra": ""},
+          {"campo": "cargo", "label": "Cargo"}
+        ],
+        "ordenPor": "anio@numero@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "evento": "XIV Festival Latinoamericano de Instalacion de Software Libre - FLISOL 2018",
+            "mes": "Mayo",
+            "anio": 2018,
+            "organizador": "Universidad Nacional de Moquegua<br>Escuela Profesional de Ingenieria de Sistemas e Informatica<br>Grupo de Usuarios Linux - Ilo",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "cargo": "Ponente",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/ponencias/2018-05-tiny.jpg"
+          },
+          {
+            "evento": "Curso Taller de Programacion PHP desde CERO",
+            "mes": "Mayo",
+            "anio": 2017,
+            "organizador": "Universidad Tecnológica de los Andes<br>Escuela Profesional de Ingenieria de Sistemas e Informatica",
+            "ciudad": "Abancay",
+            "pais": "Perú",
+            "cargo": "Ponente",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/ponencias/2017-05-tiny.jpg"
+          },
+          {
+            "evento": "Seminario Tecnologias de la Informacion Emergentes en Negocios Inteligentes",
+            "mes": "Junio",
+            "anio": 2010,
+            "organizador": "Universidad Nacional de Moquegua<br>Escuela Profesional de Ingenieria de Sistemas e Informatica",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "cargo": "Ponente",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/ponencias/2010-06-tiny.jpg"
+          },
+          {
+            "evento": "I Jornada Tecnologica de Instalacion y Aplicación de Software Libre",
+            "mes": "Agosto",
+            "anio": 2009,
+            "organizador": "Instituto Superior Tecnologico Publico \"Luis E. Valcarcel\"<br>Carrera Profesional de Computacion e Informatica",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "cargo": "Ponente",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/ponencias/2009-08-tiny.jpg"
+          },
+          {
+            "evento": "Seminario \"IEEE, Plataforma de Desarrollo 2009\"",
+            "mes": "Julio",
+            "anio": 2009,
+            "organizador": "Universidad Nacional de Moquegua<br>IEEE: Institute of Electrical and Electronics Engeneers",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "cargo": "Organizador",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/ponencias/2009-07-tiny.jpg"
+          }
+        ]
+      },
+      {
+        "titulo": "Seminarios y Congresos",
+        "orden": 5,
+        "img": null,
+        "conf_campos": [
+          {"campo": "evento", "label": null},
+          {"campo": "organizador", "label": "Lugar"},
+          {"campo": "_concat", "label": null, "content": ["ciudad","pais"], "extra": " - "},
+          {"campo": "_concat", "label": "Fechas", "content": ["mes","anio"], "extra": ""}
+        ],
+        "ordenPor": "anio@numero@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "evento": "Seminario Ciencia de los Datos",
+            "mes": "Junio",
+            "anio": 2017,
+            "organizador": "Universidad Tecnológica de los Andes<br>Escuela Profesional de Ingeniería de Sistemas e Informática",
+            "ciudad": "Abancay",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2017-06-tiny.jpg"
+          },
+          {
+            "evento": "XVI Congreso Internacional de Informática y Sistemas",
+            "mes": "Noviembre",
+            "anio": 2015,
+            "organizador": "Universidad Nacional Jorge Basadre Grohmann<br>Escuela Profesional de Ingeniería en Informática y Sistemas",
+            "ciudad": "Tacna",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2015-11-tiny.jpg"
+          },
+          {
+            "evento": "Seminario Taller \"Administración y Gestión del Capital Humano en los Sectores Públicos y Privados\"",
+            "mes": "Agosto",
+            "anio": 2015,
+            "organizador": "Instituto Superior Tecnológico Publico \"Luis E. Valcárcel\"<br>Carrera Profesional de Secretariado Ejecutivo",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2015-08-tiny.jpg"
+          },
+          {
+            "evento": "II Curso Taller de Filosofía para la Vida",
+            "mes": "Junio",
+            "anio": 2014,
+            "organizador": "Universidad Nacional de Moquegua<br>Escuela Profesional de Ingeniería de Sistemas e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2014-06-tiny.jpg"
+          },
+          {
+            "evento": "XV Congreso Internacional de Informática y Sistemas",
+            "mes": "Noviembre",
+            "anio": 2014,
+            "organizador": "Universidad Nacional Jorge Basadre Grohmann<br>Escuela Profesional de Ingeniería en Informática y Sistemas",
+            "ciudad": "Tacna",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2014-11-tiny.jpg"
+          },
+          {
+            "evento": "II Congreso Regional de Estudiantes de Ingeniería de Sistemas y Computación<br>XI Seminario Internacional de Informática y Sistemas<br>V Workshop",
+            "mes": "Octubre",
+            "anio": 2010,
+            "organizador": "Universidad Nacional Jorge Basadre Grohmann<br>Escuela Profesional de Ingeniería en Informática y Sistemas",
+            "ciudad": "Tacna",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2010-10-tiny.jpg"
+          },
+          {
+            "evento": "Seminario \"IEEE, Plataforma de Desarrollo 2009\"",
+            "mes": "Julio",
+            "anio": 2009,
+            "organizador": "Universidad Nacional de Moquegua<br>IEEE: Institute of Electrical and Electronics Engeneers",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2009-07-tiny.jpg"
+          },
+          {
+            "evento": "Curso Taller de Herramientas Informáticas y Redes Inalámbricas",
+            "mes": "Febrero",
+            "anio": 2008,
+            "organizador": "Instituto Superior Tecnológico Publico \"Luis E. Valcárcel\"<br>Carrera Profesional de Computación e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2008-02-tiny.jpg"
+          },
+          {
+            "evento": "I Seminario de Informática, Computación y Sistemas",
+            "mes": "Diciembre",
+            "anio": 2007,
+            "organizador": "Instituto Superior Tecnológico Publico \"Luis E. Valcárcel\"<br>Carrera Profesional de Computación e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2007-12-tiny.jpg"
+          },
+          {
+            "evento": "Seminario: Expo venta de Hardware 2006",
+            "mes": "Agosto",
+            "anio": 2006,
+            "organizador": "Instituto Superior Tecnológico Publico \"Luis E. Valcárcel\"<br>Carrera Profesional de Computación e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2006-08-tiny.jpg"
+          },
+          {
+            "evento": "III Congreso Internacional de Computación, Sistemas y Nuevos Enfoques en Educación Superior",
+            "mes": "Noviembre",
+            "anio": 2006,
+            "organizador": "Instituto Superior Tecnológico Publico \"Luis E. Valcárcel\"<br>Carrera Profesional de Computación e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/seminarios_congresos/2006-11-tiny.jpg"
+          }
+        ]
+      },
+      {
+        "titulo": "Voluntariado",
+        "orden": 6,
+        "img": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/secciones/voluntario.png",
+        "conf_campos": [
+          {"campo": "institucion", "label": "Institucion"},
+          {"campo": "cargo", "label": "Cargo"},
+          {"campo": "_concat", "label": "Fechas", "content": ["mes","anio"], "extra": ""},
+          {"campo": "_concat", "label": "Ciudad", "content": ["ciudad","pais"], "extra": " - "}
+        ],
+        "ordenPor": "anio@numero@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "institucion": "Asociacion Civil TRANSPARENCIA",
+            "cargo": "Observador electoral en las Elecciones Regionales y Municipales 2018",
+            "mes": "Noviembre",
+            "anio": 2018,
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": null
+          },
+          {
+            "institucion": "Universidad Nacional de Moquegua<br>Municipalidad Distrital de Pacocha",
+            "cargo": "Voluntario Capacitador en la \"Campaña de Alfabetizacion Digital para Adultos Mayores en el Distrito de Pacocha\"",
+            "mes": "Diciembre",
+            "anio": 2017,
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/voluntariado/2017-12-tiny.jpg"
+          },
+          {
+            "institucion": "Instituto Nacional de Estadística e Informática",
+            "cargo": "Voluntario en los Censos Nacionales 2017",
+            "mes": "Octubre",
+            "anio": 2017,
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/voluntariado/2017-10-tiny.jpg"
+          },
+          {
+            "institucion": "Asociacion Civil TRANSPARENCIA",
+            "cargo": "Observador electoral en las Elecciones Generales 2016",
+            "mes": "Abril",
+            "anio": 2016,
+            "ciudad": "Ilo",
+            "pais": "Perú",
+            "img_doc": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/certificados/voluntariado/2016-04-tiny.jpg"
+          }
+        ],
+        "imagenes": {
+          "css_clase": "col",
+          "value": [
+            { "alt": "Asociacion Civil Transparencia", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/transparencia.png" },
+            { "alt": "Instituto Nacional de Estadística e Informática", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/inei.png" },
+            { "alt": "Municipalidad Distrital de Pacocha", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/muni_pacocha.gif" }
+          ]
+        }
+      },
+      {
+        "titulo": "Formacion Academica",
+        "orden": 7,
+        "img": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/secciones/academico.png",
+        "conf_campos": [
+          {"campo": "institucion", "label": null},
+          {"campo": "tipo", "label": null},
+          {"campo": "_concat", "label": "Años", "content": ["anio_inicial","anio_final"], "extra": " - "},
+          {"campo": "_concat", "label": "Lugar", "content": ["ciudad","pais"], "extra": " - "}
+        ],
+        "ordenPor": "anio_inicial@numero@desc",
+        "tipo": "diccionario",
+        "value": [
+          {
+            "tipo": "Primaria",
+            "anio_inicial": 1991,
+            "anio_final": 1996,
+            "institucion": "Institucion Educativa John F. Kennedy",
+            "especialidad": "",
+            "ciudad": "Ilo",
+            "pais": "Perú"
+          },
+          {
+            "tipo": "Secundaria",
+            "anio_inicial": 1997,
+            "anio_final": 2003,
+            "institucion": "Institucion Educativa Daniel Becerra Ocampo",
+            "especialidad": "",
+            "ciudad": "Ilo",
+            "pais": "Perú"
+          },
+          {
+            "tipo": "Superior",
+            "anio_inicial": 2005,
+            "anio_final": 2008,
+            "institucion": "Instituto Superior Tecnológico Publico \"Luis E. Valcárcel\"",
+            "especialidad": "Computacion e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú"
+          },
+          {
+            "tipo": "Superior",
+            "anio_inicial": 2014,
+            "anio_final": 2018,
+            "institucion": "Universidad Nacional de Moquegua",
+            "especialidad": "Ingeniería de Sistemas e Informática",
+            "ciudad": "Ilo",
+            "pais": "Perú"
+          }
+        ],
+        "imagenes": {
+          "css_clase": "col",
+          "value": [
+            { "alt": "Universidad Nacional de Moquegua", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/unam.png" },
+            { "alt": "IESTP Luis E. Valcarcel", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/iestp_lev.png" },
+            { "alt": "IE Daniel Becerra Ocampo - Ilo", "src": "https://i197.photobucket.com/albums/aa160/antony_salas/ANTONY/CV-AntonioSalas/entidades/becerra.png" }
+          ]
+        }
+      }
+    ]
+
+  }
+}
