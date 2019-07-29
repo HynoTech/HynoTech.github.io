@@ -1,0 +1,54 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+$color_principal: #8bc164;
+$color_lineas: darkblue;
+
+html,body,.row_lateral {
+  height:100%;
+}
+
+.verde{
+  color: $color_principal;
+}
+
+.rc{
+  padding: 5px;
+  border: 2px solid white !important;
+  background-repeat: no-repeat !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+}
+.rc2{
+  padding: 5px;
+  border: 2px solid white !important;
+  background-repeat: no-repeat !important;
+  background-position-x: center !important;
+  background-position-y: center !important;
+  width: 70% !important;
+  background-size: 50% !important;
+}
+
+#ht_curriculum_vitae a{
+  color: $color_principal;
+}
+
+$posiciones: (top, bottom, left, right);
+
+@each $posicion in $posiciones {
+  .rc--#{$posicion} {
+    border-#{$posicion}-color: $color_lineas !important;
+    @if($posicion == 'right'){
+      border-#{$posicion}-style: unset !important;
+    }
+  }
+  .border-#{$posicion} {
+    border-#{$posicion}: 1px solid $color_lineas !important;
+  }
+}
+
+
+@function borde($pos: ''){
+  @return  $color_lineas !important;
+}
